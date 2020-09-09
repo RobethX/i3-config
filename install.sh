@@ -20,6 +20,6 @@
 #sudo apt update
 #sudo apt install i3-gaps dunst rofi xsettingsd lxappearance i3blocks
 
-cp -lriv .config ~/
+cp -lHriv .config ~/
 
 #snap install spt
