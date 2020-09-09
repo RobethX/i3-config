@@ -31,6 +31,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # autostart
+exec --no-startup-id hsetroot -center ~/.wallpaper.png
 exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
 
